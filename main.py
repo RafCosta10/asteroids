@@ -23,6 +23,8 @@ def main():
             if event.type == pygame.QUIT:
                 return
             pass
+        
+        player_1.update(dt)
 
         screen.fill("black")
         player_1.draw(screen)
